@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import MyName from "./MyName";
 
 export default function App() {
   const name = "react";
@@ -24,6 +25,7 @@ export default function App() {
         if (values === 3) return <div>3이다.</div>;
         return <div>없다.</div>;
       })()}
+      <MyName name="리엑트" />
     </div>
   );
 }
